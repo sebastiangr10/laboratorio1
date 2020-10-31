@@ -9,7 +9,7 @@ nota1=Number (prompt("ingresa nota parcial 1"));
 nota2=Number(prompt("ingresa nota parcial 2"));
 nota3=Number(prompt("ingresa nota parcial 3"));
 calParcial=parseInt((nota1+nota2+nota3)/3);
-alert("lu calificación parcial es "+ calParcial);
+alert("lu calificación parcial es "+ calparcial);
 
 document.write("la calificación parcial es " + calParcial);
 examen=Number(prompt("ingresa nota examen"));
