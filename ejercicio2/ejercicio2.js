@@ -5,9 +5,9 @@ let totalinvertido
 let inv_per1
 let inv_per2
 let inv_per3
-persona1=Number(prompt("ingresa lo invertido por persona 1"));
-persona2=Number(prompt("ingresa lo invertido por persona 2"));
-persona3=Number(prompt("ingresa lo invertido por persona 3"));
+persona1=Number (prompt("ingresa lo invertido por persona 1"));
+persona2=Number (prompt("ingresa lo invertido por persona 2"));
+persona3=Number (prompt("ingresa lo invertido por persona 3"));
 totalinvertido=(persona1+persona2+persona3)
 alert("el total del capital invertido es "+ totalinvertido)
 inv_per1=parseInt(((persona1*100)/ totalinvertido))
