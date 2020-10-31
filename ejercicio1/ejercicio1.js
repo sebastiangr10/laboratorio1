@@ -9,11 +9,12 @@ nota1=Number (prompt("ingresa nota parcial 1"));
 nota2=Number(prompt("ingresa nota parcial 2"));
 nota3=Number(prompt("ingresa nota parcial 3"));
 calParcial=parseInt((nota1+nota2+nota3)/3);
+alert("lu calificación parcial es "+ calParcial);
 
-document.write("la calificacion parcial es " + calParcial);
+document.write("la calificación parcial es " + calParcial);
 examen=Number(prompt("ingresa nota examen"));
 trabajoFinal=Number(prompt("ingresa nota trabajo final"));
 calFinal=parseInt(((calParcial*0.55)+(examen*0.30)+(trabajoFinal*0.15)));
-alert("su calificacion final es "+ calFinal);
+alert("su calificación final es "+ calFinal);
 
-document.write("su calificacion final es "+ calFinal)
+document.write("su calificación final es "+ calFinal)

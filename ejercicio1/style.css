@@ -1,0 +1,11 @@
+h1{color: darkblue;
+
+font-size: 50px;}
+body{background-color: burlywood;}
+h2{color: brown;}
+p{font-size: 30px;
+text-align: center;}
+li{font-size: 30px;}
+img{width: 400px;
+position: relative;left: 800px;
+position: relative;bottom: 100px;}
